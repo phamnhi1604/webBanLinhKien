@@ -1,0 +1,6 @@
+.navbar{
+    height: 200px;
+    width: 100%;
+    background-color: #66ac5f;  /*thay vì dùng thế này */
+    background-color: var(--main-color); /*Thì mọi người dùng thế này nhé*/
+}
