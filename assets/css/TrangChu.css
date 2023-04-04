@@ -1,6 +1,29 @@
-.navbar{
-    height: 200px;
+.header{
+    height: 150px;
     width: 100%;
-    background-color: #66ac5f;  /*thay vì dùng thế này */
-    background-color: var(--main-color); /*Thì mọi người dùng thế này nhé*/
+    background: var(--main-color); /*Thì mọi người dùng thế này nhé*/
+    /* color: var(--text-color);
+    font-size: 1.4rem;
+    display: flex;
+    position: fixed; */
 }
+
+.header_navbar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header_navbar li {
+    list-style: none;
+    margin-left: 10px ;
+    
+}
+
+.dangNhap{
+    
+}
+
+.dangKy{
+
+}
+
