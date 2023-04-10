@@ -1,5 +1,5 @@
 :root {
-    
+    --background-color:#F0ECDD;
     --main-color:#84C52C;    /*  màu chủ đạo của web */
     --text-color: #7E592A;   /*  màu chữ */
     
@@ -13,16 +13,18 @@
 }
 
 html {
-    font-size: 85%;
+    font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 .grid {
+    /* display: block; */
     width: 98%;
     max-width: 100%;
     margin: 0 auto;
+    /* display: inline; */
 }
 
 .grid__row {
@@ -42,10 +44,10 @@ html {
     content: "";
     display: block;
     position: absolute;
-    border-left: 1px solid black;
-    height: 14px;
-    right: -9px;
-    top: 50%;
+    border-left: 1px solid #e2d8c7;
+    height: 16px;
+    top: 10%;
+    right: 83px;
     transform: translateY(-50%);
 }
 

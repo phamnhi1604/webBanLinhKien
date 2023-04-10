@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- reset css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/TrangChu.css">
     <title>Tech Market</title>
@@ -14,42 +14,619 @@
 <body>
     <div class="web">
         <div class="header">
-            <div class="grid">
-                <ul class="header_navbar">
-                    
-                    <li></li>
-                    <li class="dangNhap ">Đăng nhập</li>
-                    <li class="dangKy header_separate">Đăng ký</li>
+            <!-- <div class="slider">
+                <div style="background: #2175ba;" class="slider_item">
+                    <img src="./assets/img/slider1.jpg" alt="">
+                </div>
+                <div style="background: #34a5cd;" class="slider_item">
+                    <img src="./assets/img/slider2.jpg" alt="">
+                </div>
+                <div style="background: #86bd3b;" class="slider_item">
+                    <img src="./assets/img/slider3.jpg" alt="">
+                </div>
+                <div></div>
+                <div></div>
+            </div> -->
+            
+            <div class="header_navbar">
+                <ul class="header_navbar-list login">
+                    <div class="grid">
+                        <li class="header_navbar-item dangNhap ">Đăng nhập</li>
+                        <li class="header_navbar-item dangKy header_separate">Đăng ký</li>
+                    </div>
+
                 </ul>
-                <ul class="sub_navbar">
-                    <li class="menu">
+            
+                <ul class="header_navbar-list main_navbar ">
+                        <li class="navbar_logo">
+                            <img src="./assets/img/logo.png" alt="">
+                        </li>
+                        
+                        <li class="navbar_btn">
+                            <i class="fa-regular fa-money-bill-1 icon"></i>
+                            <a href="" role="button" title="">nạp xu</a>
+                        </li>
+                        <li class="navbar_btn upload">
+                            <i class="fa-solid fa-cloud-arrow-up icon"></i>
+                            <a href="" role="button" class="">tải lên</a>
+                        </li>
+                    
+                    
+                </ul>
+                
+                
+
+            </div>
+            
+            <div id="sub_navbar" class="sub_navbar">
+                <ul class="sub_navbar-list">
+                    <li class="sub_navbar-item  menu">
                         Danh mục
+                        <i class="fa-solid fa-bars icon"></i>
+
                         <!-- để danh mục ở đây -->
                     </li>
-                    <li class="navbar_search">
-                        <input type="text">
+                    <li class="sub_navbar_search">
+                        <input type="text" class="search_input" placeholder="Nhập tên sản phẩm muốn tìm">
+                        <button class="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </li>
+                    <!-- <li class="" style="width:400px"></li> -->
+                    <!-- <li class="sub_navbar-search">
+                        <input type="text" class="search_input" placeholder="Nhập tên sản phẩm muốn tìm">
+                        <button class="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </li> -->
+                    
+                    <li class="sub_navbar-item cart">
+                        <i class="fa-solid fa-cart-plus "></i>
+                        <p class="navbar-text">Giỏ hàng</p>
+                    </li>
+
+                    <li class="sub_navbar-item login">
+                        <i class="fa-solid fa-user login-icon"></i>
                     </li>
                 </ul>
-    
+
             </div>
         </div>
         
 
         <div class="contaiter">
             <div class="grid">
+                <div class=" main">
                 <div class="product">
                     <div class="grid__row">
-                        <div class="grid__column-2-4">
-                            <!-- để sản phẩm vào đây -->
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
                         </div>
 
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
+                        
+                        <!-- 1 sản phẩm -->
+                        <div class="grid__column-2-4 product-position">
+                            <a href="" class="product-item">
+                                <div class="product-item__img" style="background-image:url(./assets/img/product1.webp)"></div>
+                                <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                                <div class="product-item__action ">
+                                    <!-- <span class="product-item__like product-item__like--liked">
+                                        <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                        <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                    </span> -->
+
+                                    <div class="product-item__rating">
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="product-item__star--gold fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="product-item__sold">88 đã bán</span>
+                                </div>
+                                <div class="product-item__price">
+                                    <span class="product-item__price-old">899.000</span>
+                                    <span class="product-item__price-current">499.000</span>
+                                </div>
+                                <div class="buy-btn">
+                                    <button>Mua ngay</button>
+                                </div>
+                                
+                            </a>
+                            <div class="quick-action">
+                                <a class="add_cart" href=""></a>
+                                <a class="like" href=""></a>
+                            </div>
+                        </div>
                         <div class="grid__column-2-4">
                             <!-- để sản phẩm vào đây -->
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
+            <div class="side_bar"></div>
+            
         </div>
     </div>
+    <a href="#" class="scroll_top" title="Lên đầu" style="display: block;"></a>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="./assets/js/theme.js"></script>
 </body>
 </html>
