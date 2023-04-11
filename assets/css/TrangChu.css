@@ -10,7 +10,7 @@
 
 .header_navbar{
     align-items: center;
-
+    display: flex;
 }
 
 .header_navbar-list{
@@ -18,11 +18,13 @@
     display: flex;
     align-items: center;
     list-style: none;
+    height: 50px;
+    background: var(--background-color);
 }
 
 .main_navbar{
     /* justify-content: space-between; */
-    height: 90px;
+    /* height: 90px; */
 }
 
 .navbar_logo{
@@ -33,12 +35,7 @@
     width: 100%;
 }
 
-.login{
-    flex-direction: row-reverse;
-    height: 34px;
-    background: var(--background-color);
-    float: right;
-}
+
 
 .navbar_btn{
     /* width: 60px;
@@ -80,7 +77,7 @@
     display: flex;
     /* background-color: white; */
     overflow: hidden;
-    margin-left: 60px;
+    margin-left: 350px;
     align-content: center;
     flex-wrap: wrap;    
 
@@ -126,8 +123,14 @@
     cursor: pointer;
 }
 
+.header_navbar-login{
+    float: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .dangNhap{
-    
 }
 
 .dangKy{
@@ -160,10 +163,11 @@
 
 .sub_navbar-list{
     list-style: none;
-    cursor: pointer;
     display: flex;
     margin:0 10px;
     height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
@@ -177,9 +181,35 @@
     padding:0 20px;
 }
 
+.cart {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #319c73;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    cursor: pointer;
+}
 
+.cart i {
+    font-size: 16px;
+    padding: 4px;
+}
+ .cart p {
+    padding: 4px;
+ }
 
-
+ .login{
+    margin-left: auto;
+    margin-right: 30px;
+}
+.login-icon{
+    color: #8C6635;
+    font-size: 1.6rem;
+}
 
 
 

@@ -43,7 +43,7 @@ html {
 .header_separate::after {
     content: "";
     display: block;
-    position: absolute;
+    position: relative;
     border-left: 1px solid #e2d8c7;
     height: 16px;
     top: 10%;
