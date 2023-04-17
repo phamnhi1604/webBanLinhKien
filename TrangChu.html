@@ -9,76 +9,93 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/TrangChu.css">
+    <!-- <link rel="stylesheet" href="./assets/css/test.css"> -->
     <title>Tech Market</title>
 </head>
 <body>
     <div class="web">
         <div class="header">
-            <!-- <div class="slider">
-                <div style="background: #2175ba;" class="slider_item">
-                    <img src="./assets/img/slider1.jpg" alt="">
-                </div>
-                <div style="background: #34a5cd;" class="slider_item">
-                    <img src="./assets/img/slider2.jpg" alt="">
-                </div>
-                <div style="background: #86bd3b;" class="slider_item">
-                    <img src="./assets/img/slider3.jpg" alt="">
-                </div>
-                <div></div>
-                <div></div>
-            </div> -->
-            
-            <div class="header_navbar">
+
+            <nav class="header_navbar">
                 <ul class="header_navbar-list">
-                    <li class="header_navbar-item navbar_btn">
+                    <li class="header_navbar-item home">
+                        <a href="#"><img src="./assets/img/logo.png" alt=""></a>
+                    </li>
+                    <!-- <li class="header_navbar-item navbar_btn">
                         <i class="fa-regular fa-money-bill-1 icon"></i>
                         <a href="" role="button" title="">nạp xu</a>
                     </li>
                     <li class="header_navbar-item navbar_btn upload">
                         <i class="fa-solid fa-cloud-arrow-up icon"></i>
                         <a href="" role="button" class="">tải lên</a>
-                    </li>
-                    
-                </ul>
-                <ul class="header_navbar-list header_navbar-login">
-                    <li class="header_navbar-item dangNhap ">Đăng nhập</li>
-                    <li class="header_navbar-item dangKy">Đăng ký</li>
-                </ul>
-            </div>
-            
-            <div id="sub_navbar" class="sub_navbar">
-                <ul class="sub_navbar-list">
-                    <li class="sub_navbar-item  menu">
-                        Danh mục
-                        <i class="fa-solid fa-bars icon"></i>
-
-                        <!-- để danh mục ở đây -->
-                    </li>
-                    <li class="sub_navbar-item sub_navbar_search">
-                        <input type="text" class="search_input" placeholder="Nhập tên sản phẩm muốn tìm">
-                        <button class="submit">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </li>
-                    <!-- <li class="" style="width:400px"></li> -->
-                    <!-- <li class="sub_navbar-search">
-                        <input type="text" class="search_input" placeholder="Nhập tên sản phẩm muốn tìm">
-                        <button class="submit">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
                     </li> -->
+                    <li class="header_navbar-item"></li>
+                    <li class="header_navbar-item hotline">
+                        <a href="" class="hotline-list">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span>
+                                Hotline bán hàng <br>
+                                <b>19001604</b>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
                     
-                    <li class="sub_navbar-item cart">
+                </ul>
+            </nav>
+            <nav class="sub_navbar">                                                                                        
+                <ul class="sub_navbar-list ">
+                    <li class="sub_navbar-item sub_navbar-menu ">
+                        <i class="fa-solid fa-bars"></i>                                                                                                                                                      
+                        <p class="sub_navbar-text">Danh mục sản phẩm</p>
+                    </li>
+                    <li class="sub_navbar-item" style="width:400px"></li>
+                    <li class="sub_navbar-search">
+                        <input type="text" class="search_input" placeholder="Nhập tên sản phẩm muốn tìm">
+                        <button class="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </li>
+                    
+                    <a href="./GioHang.html" class="sub_navbar-item cart">
                         <i class="fa-solid fa-cart-shopping"></i>
                         <p class="navbar-text">Giỏ hàng</p>
-                    </li>
+                    </a>
 
                     <li class="sub_navbar-item login">
-                        <i class="fa-solid fa-user login-icon"></i>
+                        <a class="" href=""><i class="fa-solid fa-user login-icon "></i></a>
+                        
+                        <ul class="login-list">
+                            <a href="./DangNhap.html" class="login-item">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                Đăng nhập
+                            </a>
+                            <a href="./DangKy.html" class="login-item">
+                                <i class="fa-solid fa-user-plus"></i>
+                                Đăng ký
+                            </a>
+                        </ul>
+                        <!-- <a href="#" class="login-text navbar-text">Đăng nhập</a> -->
                     </li>
+        
+                    
                 </ul>
+            </nav>
+            
 
-            </div>
+            <div class="slider">
+                <div class="slider_item">
+                    <img src="./assets/img/slide1_2.jpg" alt="">
+                </div>
+                <div class="slider_item">
+                    <img src="./assets/img/slide2.jpg" alt="">
+                </div>
+                <div class="slider_item">
+                    <img src="./assets/img/slide3.jpg" alt="">
+                </div>
+                <div></div>
+                <div></div>
+            </div> 
         </div>
         
 

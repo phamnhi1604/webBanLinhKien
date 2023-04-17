@@ -16,18 +16,18 @@ $(document).on('click','.scroll_top',function(){
     return false;
 })
 
-var vertical_menu_height = $('#box-vertical-megamenus .box-vertical-megamenus').innerHeight();
+// var vertical_menu_height = $('#box-vertical-megamenus .box-vertical-megamenus').innerHeight();
 
-// NAVBAR ON TOP
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if($(this).scrollTop()){
-            $('.sub_navbar').addClass('nav-ontop');
-        } else{
-            $('.sub_navbar').removeClass('nav-ontop');
-        }
-    })
-})
+// // NAVBAR ON TOP
+// $(document).ready(function(){
+//     $(window).scroll(function(){
+//         if($(this).scrollTop()){
+//             $('.sub_navbar').addClass('nav-ontop');
+//         } else{
+//             $('.sub_navbar').removeClass('nav-ontop');
+//         }
+//     })
+// })
 
 
 // ========= auto đổi slide=============

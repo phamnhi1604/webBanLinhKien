@@ -1,51 +1,58 @@
 .header{
-    /* height: 100px; */
-    /* width: 100%; */
-    /* background: var(--background-color); Thì mọi người dùng thế này nhé */
-    /* color: var(--text-color); */
+    display:inline;
     font-size: 1.4rem;
-    /* display: inline; */
-    position: relative;
+    height: 110px;
+    padding: 12px 0;
+    margin: auto;
+    width: 100%;
 }
 
 .header_navbar{
+    height: 62px;
+    padding: 10px;
+    background: var(--background-color);
     align-items: center;
     display: flex;
 }
 
 .header_navbar-list{
-    width: 100%;
-    display: flex;
-    align-items: center;
     list-style: none;
-    height: 50px;
-    background: var(--background-color);
-}
-
-.main_navbar{
-    /* justify-content: space-between; */
-    /* height: 90px; */
-}
-
-.navbar_logo{
-    width: 100px;
-}
-
-.navbar_logo img{
+    display: flex;    
     width: 100%;
+    height: 100%;
 }
 
+.header_navbar-item {
+    
+    font-weight: 500;
+    display: block;
+    width: 150px;
+}
+
+.home img{
+    width: 150px;
+    position: absolute;
+    top: -25px;
+}
+
+/* .header_navbar-login{
+    float: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
+.dangNhap{
+}
+
+.dangKy{
+
+}
 
 
 .navbar_btn{
-    /* width: 60px;
-    height: 25px;
-    line-height: 25px;
-    text-align: center;
-    background: #ccc; */
     margin-right: 10px;
     cursor: pointer;
-
     color: white;
     display: flex;
     height: 35px;
@@ -73,24 +80,99 @@
     /* color: white; */
 }
 
-.sub_navbar_search{
-    display: flex;
-    /* background-color: white; */
-    overflow: hidden;
-    margin-left: 350px;
-    align-content: center;
-    flex-wrap: wrap;    
 
+
+.hotline{
+    margin-left: auto;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hotline-list{
+    color: #42311a;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
+}
+.hotline-list i{
+    margin: 5px;
+    margin-right: 5px;
+    font-size: 2.5rem;
+    align-self: center;
+}
+.hotline-list span{
+    margin: 10px;
+}
+/* ===============SUBNAV================== */
+
+.sub_navbar{
+    position: sticky;
+    height: 50px;
+    top: 0;
+    z-index: 99;
+    background: var(--background-color);
+    /* box-shadow: 0px 5px 4px 0 rgb(0 0 0 / 15%); */
+    
+}
+
+.sub_navbar-list{    
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 2px 5px 4px rgb(0 0 0 / 15%);
+    list-style: none;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.sub_navbar-item {
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.sub_navbar-menu {
+    display: flex;
+    width: 200px;
+    background-color: #8C6635;
+    height: 50px;
+    padding: 0;
+    color: white;
+    line-height: 50px;
+}
+
+.sub_navbar-menu i{
+    margin: auto 10px;
+    margin-right: 20px;
+}
+.sub_navbar-text{
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.sub_navbar-search{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 80px;
 }
 
 
 .search_input {    
-    border-radius: 4px;
     height: 40px;
     border: none;
     /* width: calc(100% - 35px); */
     font-size: 1.2rem;
-    width: 265px;
+    width: 265px;   
     line-height: 14px;
     outline: none;
     padding: 8px 8px 8px 13px;
@@ -99,7 +181,6 @@
 .submit {
     border: 0;
     padding: 0;
-    background:none;
 }
 .submit i {
     background-color: white;
@@ -109,88 +190,22 @@
     align-items: center;
     justify-content: center;
     width: 30px;
-    border-radius: 4px;
     font-size: 15px;
-    position: relative;
-    left: -20px;
     cursor: pointer;
 }
 
-
-.header_navbar-item {
-    margin-left: 10px;
-    float: right;
-    cursor: pointer;
-}
-
-.header_navbar-login{
-    float: right;
-    list-style: none;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.dangNhap{
-}
-
-.dangKy{
-
-}
-
-.slider{
-    height: 50px;
-}
-
-.slider_item{
-    margin: auto;
-}
-
-.slider_item img{
-    height: 50px;
-    margin: auto;
-}
-
-.sub_navbar{
-    /* position: sticky; */
-    top: 0;
-    background: var(--background-color);
-    /* width: 100%; */
-    /* padding: 10px; */
-    height: 50px;
-    line-height: 50px;
-    
-}
-
-.sub_navbar-list{
-    list-style: none;
-    display: flex;
-    margin:0 10px;
-    height: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-
-.menu{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    width: 270px;
-    background: #8C6635;
-    padding:0 20px;
-}
 
 .cart {
+    text-decoration: none;
     display: flex;
     height: 40px;
     width: 100px;
     border-radius: 4px;
-    background-color: #319c73;
+    background-color: var(--main-color);
     align-items: center;
     justify-content: center;
     color: white;
-    margin-left: auto;
+    margin-right: 80px;
     cursor: pointer;
 }
 
@@ -203,20 +218,75 @@
  }
 
  .login{
-    margin-left: auto;
-    margin-right: 30px;
+    width: 50px;
 }
+.login::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 7px;
+    top: 33px;
+}
+
+
 .login-icon{
     color: #8C6635;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.login-list{
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: #71532c;
+    list-style: none;
+    background-color: white;
+    width: 170px;
+    border-top:3px solid var(--main-color);
+    display: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) ;
+
+}
+
+.login-list::before{
+    content: "";
+    border: 10px solid;
+    border-color: transparent transparent var(--main-color) transparent;
+    position: absolute;
+    right: 7px;
+    top: -21px;
+}
+
+.login-item{
+    color: #71532c;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.login-item i {
+    padding: 10px;
 }
 
 
+.login:hover .login-list{
+    display: block;
+}
 
+.login-item:hover{
+    /* transition: right linear .2s; */
+    position: relative;
+    right: -4px;
+    color: var(--main-color);
 
+}
+
+/* 
 element.style {
-}
-.nav-top-menu {
+} */
+/* .nav-top-menu {
     background: #f0ecdd;
 }
 
@@ -230,34 +300,25 @@ element.style {
     background: #f0ecdd;
     z-index: 101;
     box-shadow: 0 1px 1px 0 rgba(50, 50, 50, 0.1);
+} */
+
+
+
+
+.slider{
+    height: 600px;
 }
 
-.scroll_top {
-    width: 34px;
-    height: 34px;
-    position: fixed;
-    /* display: none; */
-    font-size: 0;
-    z-index: 9999;
-    right: 10px;
-    bottom: 32px;
-    background: #8C6635;
-    /* display: none; */
-    border-radius: 17px;
-    text-decoration: none;
+.slider_item{
+    margin: auto;
 }
 
-.scroll_top:before {
-    content: "\f106";
-    font-family: "FontAwesome";
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
-    display: block;
+.slider_item img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
+
 
 
 .contaiter{
@@ -382,6 +443,7 @@ element.style {
     height: 30px;
     width: 80%;
     margin: 10px;
+    font-size: 1.2rem;
     border: none;
     cursor: pointer;
 }

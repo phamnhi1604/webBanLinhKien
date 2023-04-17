@@ -1,0 +1,160 @@
+.header {
+    display:inline;
+    height: 110px;
+    padding: 12px 0;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.header_navbar {
+    height: 62px;
+    background-color: var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.header_navbar-list {
+    margin-top: 0;
+    padding: 0 0 10px;
+    list-style: none;
+    display: flex;    
+    justify-content: space-between;
+}
+
+
+
+.header_navbar-item {
+    
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: block;
+    width: 150px;
+}
+
+.header_navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header_logo-img {
+    color: white;
+    width: 25%;
+}
+.header_logo-text {
+    display: block;
+    color: var(--white-color);
+    width: 100px;
+}
+
+
+
+
+/* ==================SUBNAV============== */
+
+
+.sub_navbar {
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+}
+
+.sub_navbar-list {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 2px 5px 4px rgb(0 0 0 / 15%);
+    list-style: none;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.sub_navbar-item {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 150px;
+    cursor: pointer;
+
+}
+.sub_navbar-menu {
+    display: flex;
+}
+.sub_navbar-menu i {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sub_navbar-search {
+    display: flex;
+    background-color: var(--white-color);
+    border-radius: 4px;
+    overflow: hidden;
+
+
+}
+
+.search_input {
+    height: 40px;
+    border: none;
+    /* width: calc(100% - 35px); */
+    font-size: 1.2rem;
+    width: 265px;
+    line-height: 14px;
+    outline: none;
+    padding: 8px 8px 8px 13px;
+}
+
+.submit {
+    border: 0;
+    padding: 0;
+}
+.submit i {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    font-size: 15px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.cart {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #319c73;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart i {
+    font-size: 16px;
+    padding: 4px;
+}
+ .cart p {
+    padding: 4px;
+ }
+
+.login {
+    width: 100px;
+    text-align: right;
+}
+
+.login-icon {
+    padding: 4px;
+    font-size: 16px;
+}
+.login-text {
+    align-items:flex-end;
+}
