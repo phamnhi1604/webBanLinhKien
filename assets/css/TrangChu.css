@@ -86,34 +86,6 @@
 
 
 
-.menu-content{
-
-    /* float: left; */
-    border-top:3px solid #29aba4;
-
-    width: 320px;
-    position: absolute;
-    top: 50px;
-    left: 5px;
-    background-color: #eee;
-    display: none;
-}
-
-.menu-list a {
-    display: block;
-    /* padding: 8px 0; */
-
-}
-
-.menu-list a:hover {
-    background-color: #888;
-    color: #eee;
-}
-
-
-.menu-list a i{
-    padding: 0 10px 0 15px ;
-}
 /* =========END MENU=========== */
 
 

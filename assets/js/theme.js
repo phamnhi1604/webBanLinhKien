@@ -33,61 +33,7 @@ $(document).on('click','.scroll_top',function(){
 // ========= auto đổi slide=============
 
 // Thêm banner
-function addBanner(img, link) {
-	var newDiv = `<div class='item'>
-						<a target='_blank' href=` + link + `>
-							<img src=` + img + `>
-						</a>
-					</div>`;
-	var banner = document.getElementsByClassName('owl-carousel')[0];
-	banner.innerHTML += newDiv;
-}
 
-
-function phanTich_URL_chiTietSanPham(){
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-        items: 5,
-        center: true,
-        smartSpeed: 450,
-    });
-}
-
-// add hình
-function addSmallImg(img) {
-    var newDiv = `<div class='item'>
-                        <a>
-                            <img src=` + img + ` onclick="changepic(this.src)">
-                        </a>
-                    </div>`;
-    var banner = document.getElementsByClassName('owl-carousel')[0];
-    banner.innerHTML += newDiv;
-}
-
-window.onload = function (){
-    
-	// Thêm hình vào banner
-	addBanner("assets/img/banners/slider1.jpeg", "assets/img/banners/slider1.jpeg");
-	var numBanner = 3; // Số lượng hình banner
-	for (var i = 2; i <= numBanner; i++) {
-		var linkimg = "assets/img/banners/slider" + i + ".jpeg";
-		addBanner(linkimg, linkimg);
-	}
-
-	// Khởi động thư viện hỗ trợ banner - chỉ chạy khi đã tạo hình trong banner
-	var owl = $('.owl-carousel');
-	owl.owlCarousel({
-		items: 1.5,
-		margin: 100,
-		center: true,
-		loop: true,
-		smartSpeed: 450,
-		autoplay: true,
-		autoplayTimeout: 3500
-	});
-
-    phanTich_URL_chiTietSanPham();
-}
 
 
 // ===========HOTLINE============
