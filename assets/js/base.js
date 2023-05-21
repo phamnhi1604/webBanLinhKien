@@ -810,6 +810,13 @@ function addHeader() {
                 </a>
             </div> <!-- End Cart -->
             
+            <div class="notice">
+                <p href="">
+                    <i class="fa-solid fa-bell"></i>
+                    &nbsp;9
+                </p>
+                <div class="notice-menu"></div>
+            </div>
             
 
             <div class="member">
