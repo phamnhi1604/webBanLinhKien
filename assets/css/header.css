@@ -126,6 +126,7 @@
         
     }
     .header .menu p {
+        font-size: 16px;
         margin: 0 0 12px;
         line-height: 40px;
     }
@@ -165,6 +166,7 @@
             /* điều chỉnh width của ô tìm kiếm trên header ở đây */
         }
         .input-search input {
+            font-size: 16px;
             float: left;
             padding-left: 15px;
             border: none;
