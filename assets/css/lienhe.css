@@ -55,6 +55,7 @@ table button{
 }
 table button:hover{
 	background: #3a9ad9;
+	color: #FFF;
 }
 .thongtinnhom table{
 	border-collapse: collapse;

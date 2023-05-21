@@ -1,0 +1,291 @@
+.footer{
+    margin: 10px auto;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 20px;
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+.cot1{
+    width: 100px;
+    height: 100px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+}
+.text-footer { /* cot 1 */
+    grid-column: 1 / span 12;
+    /* xác định vị trí cột của phần tử. */
+    padding: 12px;
+    margin: -4px 3px;
+    font-size: 15px;
+    /* height: 50rem; */
+
+}
+.list-footer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item-footer {
+    margin-bottom: 10px;
+}
+.link-footer {
+    color: #333;
+    text-decoration: none;
+}
+.link-footer:hover {
+    text-decoration: underline;
+}
+
+
+.qr-code {
+    width: 100px;
+    height: 100px;
+}
+.contact {
+    margin-top: -80px;
+    float: right;
+    margin-right: 100px;
+}
+
+/* các icon fb,ins,tw và yt */
+.facebook {
+    text-decoration: none;
+    background-color: #fff;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: #313b42;
+    line-height: 40px;
+    overflow: hidden;
+}
+.facebook::before {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+    background-color: #3b5998;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+}
+.facebook:hover::before {
+    top: -10%;
+    left: -10%;
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.facebook:hover i {
+    color: #fff;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 0.5s;
+}
+.twitter {
+    text-decoration: none;
+    background-color: #fff;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #32cafd;
+    line-height: 40px;
+}
+.twitter::before {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+    background-color: #32cafd;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+}
+.twitter:hover::before {
+    top: -10%;
+    left: -10%;
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.twitter:hover i {
+    color: #fff;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 0.5s;
+}
+.youtube {
+    text-decoration: none;
+    background-color: #fff;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #d94938;
+    line-height: 40px;
+}
+.youtube::before {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+    background-color: #f44336;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+}
+.youtube:hover::before {
+    top: -10%;
+    left: -10%;
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.youtube:hover i {
+    color: #fff;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 0.5s;
+}
+.instagram {
+    text-decoration: none;
+    background-color: #fff;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #E4405F;
+    line-height: 40px;
+}
+.instagram::before {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+    background-color: #E4405F;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+}
+.instagram:hover::before {
+    top: -10%;
+    left: -10%;
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.instagram:hover i {
+    color: #fff;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: all 0.5s;
+}
+iframe {
+    width: 350px;
+    height: 250px;
+}
+.payment {
+    float: right;
+    margin-top: -150px;
+}
+.download {
+    float: right;
+    /* margin-right: -250px; */
+}
+.fanpage {
+    margin-left: 100px;
+}
+.qr-code {
+    width: 80;
+    height: 80;
+    margin-left: 5px;
+}
+.text1 {
+    margin-right: 80px;
+}
+.app-store {
+    width: 130px;
+    height: auto;
+    margin: 1px 114px;
+    position: absolute;
+}
+.ch-play {
+    width: 130px;
+    height: auto;
+    margin: 62px 114px;
+    position: absolute;
+}
+.text2 {
+    list-style-type: none;
+    text-decoration: none;
+}
+.text2:hover{
+   text-decoration: underline;
+  
+}
+.infor {
+    margin-left: 500px;
+    margin-top: -400px;
+    position: absolute;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.text3 {
+    margin-left: 40px;
+}
+.thong-bao {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    margin: 12px 500px;
+}
+.dang-ki {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    margin: -15px 600px;
+}
+.text4 {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+/* đăng kí nhận thông tin ưu đãi */
+.dang-ky{
+   background: red;
+   border: 1px none;
+   color: white;
+   padding: 0.1rem 1.1rem;
+   cursor: pointer;
+   border-radius: 4px;
+   height: 49px;
+}
+.email{
+   border-radius: 4px;
+}
+.sign-up{
+   margin-top:-200px;
+   margin-left: 450px;
+}
+.lazy-loaded{
+   width: 20px;
+   height: 20px;
+   margin-top: -43px;
+   margin-left: -48px;
+   position: absolute;
+   /* margin: -10px -50px; */
+}

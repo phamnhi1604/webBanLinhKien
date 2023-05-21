@@ -11,10 +11,25 @@
 
 
 /* scroll top */ 
-$(document).on('click','.scroll_top',function(){
-    $('body,html').animate({scrollTop:0},400);
-    return false;
-})
+// $(document).on('click','.scroll_top',function(){
+//     $('body,html').animate({scrollTop:0},400);
+//     return false;
+// })
+function ScrollTop() {
+        if (window.jQuery) {
+            jQuery('html,body').animate({
+                scrollTop: 0
+            }, 100);
+        } else {
+            document.getElementsByClassName('top-nav')[0].scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        
+}
 
 // var vertical_menu_height = $('#box-vertical-megamenus .box-vertical-megamenus').innerHeight();
 

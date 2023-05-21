@@ -742,10 +742,10 @@ function addTopNav() {
 
             <ul class="top-nav-quicklink flexContain">
                 <li><a href="../TrangChu.html"><i class="fa fa-home"></i> Trang chủ</a></li>
-                <li><a href="../tintuc.html"><i class="fa-regular fa-newspaper"></i> Tin tức</a></li>
-                <li><a href="../tuyendung.html"><i class="fa-regular fa-handshake"></i></i> Tuyển dụng</a></li>
+                <li><a href="#"><i class="fa-regular fa-newspaper"></i> Tin tức</a></li>
+                <li><a href="#"><i class="fa-regular fa-handshake"></i></i> Tuyển dụng</a></li>
                 <li><a href="../gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
-                <li><a href="../trungtambaohanh.html"><i class="fa fa-wrench"></i> Bảo hành</a></li>
+                <li><a href="#"><i class="fa fa-wrench"></i> Bảo hành</a></li>
                 <li><a href="../lienhe.html"><i class="fa fa-phone"></i> Liên hệ</a></li>
             </ul> <!-- End Quick link -->
         </section><!-- End Section -->
@@ -845,5 +845,19 @@ function addHeader() {
 
 
 // sản phẩm
-
+function ScrollTop() {
+    if (window.jQuery) {
+        jQuery('html,body').animate({
+            scrollTop: 0
+        }, 100);
+    } else {
+        document.getElementsByClassName('top-nav')[0].scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    
+}
 
