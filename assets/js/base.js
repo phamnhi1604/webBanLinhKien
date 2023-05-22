@@ -810,6 +810,7 @@ function addHeader() {
                 </a>
             </div> <!-- End Cart -->
             
+            <!--Notice-->
             <div class="notice">
                 <p href="">
                     <i class="fa-solid fa-bell"></i>
@@ -824,11 +825,11 @@ function addHeader() {
                     <i class="fa fa-user"></i>
                 </a>
                 <ul class="menuMember hide">
-                    <a href="../DangNhap.html" class="member-item">
+                    <a href="../FORM_DKDN/formDN.html" class="member-item">
                         <i class="fa-solid fa-right-to-bracket"></i>
                         Đăng nhập
                     </a>
-                    <a href="../DangKy.html" class="member-item">
+                    <a href="../FORM_DKDN/formDK.html" class="member-item">
                         <i class="fa-solid fa-user-plus"></i>
                         Đăng ký
                     </a>
