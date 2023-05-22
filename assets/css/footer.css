@@ -1,10 +1,5 @@
 .footer{
-    /* margin: 10px auto; */
-    max-width: 1217px;
-    /* padding: 10px; */
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-column-gap: 20px; */
+    max-width: 1270px;
     height: 100vh;
     background-color: #fafafa;
     padding: 10px;
@@ -299,6 +294,9 @@ a {
    border-radius: 4px;
    height: 35px;
 }
+.dang-ky:hover{
+    background: rgb(110, 11, 11);
+}
 .email{
    border-radius: 4px;
    height: 35px;
@@ -312,8 +310,4 @@ a {
 .lazy-loaded{
    width: 20px;
    height: 20px;
-   margin-top: -22px;
-   margin-left: 30px;
-   position: absolute;
-   /* margin: -10px -50px; */
 }

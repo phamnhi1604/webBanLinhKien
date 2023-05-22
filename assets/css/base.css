@@ -52,7 +52,7 @@ a {
 
 /* căn giữa section, và set độ rộng lớn nhất là 1200px */
 section {
-    max-width: 1217px;
+    max-width: 1270px;
     margin: 0 auto;
 }
 
@@ -257,15 +257,18 @@ hr {
     /* float: left; */
     border-top:3px solid #29aba4;
 
-    width: 320px;
+    /* width: 320px; */
     position: absolute;
     top: 50px;
     left: 5px;
     background-color: #eee;
     display: none;
 }
+.menu-list{
+}
 
 .menu-list a {
+    padding-right: 10px;
     display: block;
     /* padding: 8px 0; */
 
@@ -274,6 +277,7 @@ hr {
 .menu-list a:hover {
     background-color: #888;
     color: #eee;
+    font-size: 14px;
 }
 
 
