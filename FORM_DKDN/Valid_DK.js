@@ -9,7 +9,7 @@ function KiemTra(){
     var rePass = document.getElementById("repasswd");
     var errRePass = document.querySelector(".errorRepass");
     var acc= document.querySelector(".account");
-    if(phoneNumber.value == "" || phoneNumber.value == /^[0-9]+$/)
+    if(phoneNumber.value == "" ||  /^[0-9]+$/)
     {
         flag = false;
         errPhone.textContent = "Vui lòng kiểm tra lại số điện thoại!"

@@ -7,6 +7,7 @@
     <title>Form_Dang Nhap</title>
     <link rel="stylesheet" href="dn.css" type="text/css">
     <script src="Valid_DN.js"></script>
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
 </head>
 <body>
     <div id="container">
@@ -14,10 +15,10 @@
             <h2 >ĐĂNG NHẬP TÀI KHOẢN</h2>
             <form action="#" method="GET" name="login">
                 <label for="emailPhone"><b>Email/Số Điện Thoại Đăng Nhập</b></label><br> 
-                <input name="emailPhone" id="emailPhone" size="11" type="text" placeholder="Nhập Email/Số Điện Thoại" required>
+                <input name="emailPhone" id="emailPhone" type="text" placeholder="Nhập Email/Số Điện Thoại" required>
                 <span class="errorEmailPhone"></span><br>
                 <label for="passwd"><b>Password Tài Khoản</b></label><br>
-                <input name="passwd" id="passwd" size="11" type="password" placeholder="Nhập Password" required><br>
+                <input name="passwd" id="passwd" type="password" placeholder="Nhập Password" required><br>
                 <span class="errorpass"></span><br>
             </form>
             <button onclick="KiemTra()" type="submit" class="button">ĐĂNG NHẬP</button>
@@ -39,6 +40,10 @@
          <div class="signup">
             Bạn chưa có tài khoản <a href="formDk.html" target="_blank" style="color: aquamarine;">Đăng Ký</a>
         </div>
+
+        <a class="esc" href="../TrangChu.html">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
 </div> 
     <div id="announce">
         <div class="a-right">
