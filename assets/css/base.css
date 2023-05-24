@@ -13,10 +13,8 @@
 }
 
 html {
-    font-size: 62.5%;
-    min-width: 1024px;
-    line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+
+    
     box-sizing: border-box;
 } */
 
@@ -32,7 +30,10 @@ html {
 html {
     min-width: 1024px;
     box-sizing: border-box;
-
+    line-height: 1.6rem;
+    font-size: 62.5%;
+    min-width: 1024px;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 a {
@@ -111,17 +112,17 @@ hr {
     transition: 0.3s;
 }
 
-#closebtn {
+/* #closebtn {
     margin-left: 15px;
     color: white;
     font-weight: bold;
     float: right;
-    font-size: 22px;
+    font-size: 1.3px;
     line-height: 20px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-}
+} */
 
 /* ===== End clear float ====== */
 
@@ -132,7 +133,7 @@ hr {
     z-index: 100;
     background: rgba(0, 0, 0, .2);
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -250,45 +251,6 @@ hr {
     }
 }
 
-/* ======nav======= */
-
-.menu-content{
-
-    /* float: left; */
-    border-top:3px solid #29aba4;
-
-    /* width: 320px; */
-    position: absolute;
-    top: 50px;
-    left: 5px;
-    background-color: #eee;
-    display: none;
-}
-.menu-list{
-}
-
-.menu-list a {
-    padding-right: 10px;
-    display: block;
-    /* padding: 8px 0; */
-
-}
-
-.menu-list a:hover {
-    background-color: #888;
-    color: #eee;
-    font-size: 14px;
-}
-
-
-.menu-list a i{
-    padding: 0 10px 0 15px ;
-}
-
-
-
-
-
 
 
 
@@ -313,45 +275,6 @@ hr {
     padding-left: 5px;
     padding-right: 5px;
     width: 25%;
-}
-
-.header_separate::after {
-    content: "";
-    display: block;
-    position: relative;
-    border-left: 1px solid #e2d8c7;
-    height: 16px;
-    top: 10%;
-    right: 83px;
-    transform: translateY(-50%);
-}
-
-
-.scroll_top {
-    width: 34px;
-    height: 34px;
-    position: fixed;
-    display: none;
-    font-size: 0;
-    z-index: 9999;
-    right: 10px;
-    bottom: 32px;
-    background: #8C6635;
-    display: none;
-    border-radius: 17px;
-    text-decoration: none;
-} 
-
-.scroll_top:before {
-    content: "\f106";
-    font-family: "FontAwesome";
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
-    display: block;
 }
 
 

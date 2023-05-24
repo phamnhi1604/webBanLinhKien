@@ -18,7 +18,7 @@
         display: table-cell;
         padding: 5px;
         text-align: center;
-        font-size: 13px;
+        font-size: 1.3rem;
         height: 2em;
         width: 3em;
         line-height: 2em;
@@ -33,7 +33,7 @@
     .social-top-nav a:hover { color: #fff; }
     .fa-facebook-f:hover { background: #3B5998; }
     .fa-instagram:hover { background: #ff6a25; }
-    .fa-google:hover { background: #dd4b39; }
+    .fa-twitter:hover { background: #32cafd; }
     .fa-youtube:hover { background: #ff0000; }
 /* ======= End Social Icon ======= */
 
@@ -43,7 +43,7 @@
     }
     .top-nav-quicklink li {
         display: inline-block;
-        font-size: 1em;
+        font-size: 1.45em;
         color: gray;
     }
     .top-nav-quicklink li a {
@@ -101,6 +101,41 @@
 
     }
 
+    /* ======nav======= */
+
+    .menu-content{
+
+        /* float: left; */
+        border-top:3px solid #29aba4;
+
+        /* width: 320px; */
+        position: absolute;
+        top: 50px;
+        left: 5px;
+        background-color: #eee;
+        display: none;
+    }
+    .menu-list{
+    }
+
+    .menu-list a {
+        padding-right: 10px;
+        display: block;
+        /* padding: 8px 0; */
+        font-size: 1.4rem;
+
+    }
+
+    .menu-list a:hover {
+        background-color: #888;
+        color: #eee;
+        font-size: 1.4rem;
+    }
+
+
+    .menu-list a i{
+        padding: 0 10px 0 15px ;
+    }
     .menu::after{
         content: "";
         display: block;
@@ -125,10 +160,11 @@
         margin: 0 15px;
         line-height: 40px;
         vertical-align: middle;
+        font-size: 1.4rem;
         
     }
     .header .menu p {
-        font-size: 16px;
+        font-size: 1.6rem;
         margin: 0 0 12px;
         line-height: 40px;
     }
@@ -142,6 +178,7 @@
     .menu:hover
     .menu-icon{
         transform: rotate(90deg);
+        font-size: 1.4rem;
     }
 /* ======= End menu ======== */
 
@@ -168,7 +205,7 @@
             /* điều chỉnh width của ô tìm kiếm trên header ở đây */
         }
         .input-search input {
-            font-size: 16px;
+            font-size: 1.6rem;
             float: left;
             padding-left: 15px;
             border: none;
@@ -179,7 +216,7 @@
         }
         .input-search button {
             float: right;
-            font-size: 14px;
+            font-size: 1.4rem;
             font-weight: bold;
             padding: 0 10px;
             color: #888;
@@ -198,7 +235,7 @@
 
         .tags {
             margin: 5px 0 0 20px;
-            font-size: 13px;
+            font-size: 1.3rem;
         }
         .tags a {
             color: gray;
@@ -209,39 +246,6 @@
             text-decoration: underline;
         }
 
-        /* W3 school autocomplete */
-            .autocomplete {
-                /*the container must be positioned relative:*/
-                position: relative;
-                height: 100%;
-            }
-            .autocomplete-items {
-                position: absolute;
-                border: 1px solid #d4d4d4;
-                border-bottom: none;
-                border-top: none;
-                z-index: 99;
-                /*position the autocomplete items to be the same width as the container:*/
-                top: 100%;
-                left: 0;
-                right: 0;
-            }
-            .autocomplete-items div {
-                padding: 10px;
-                cursor: pointer;
-                background-color: #fff; 
-                border-bottom: 1px solid #d4d4d4; 
-            }
-            .autocomplete-items div:hover {
-                /*when hovering an item:*/
-                background-color: #e9e9e9; 
-            }
-            .autocomplete-active {
-                /*when navigating through the items using the arrow keys:*/
-                background-color: DodgerBlue !important; 
-                color: #ffffff; 
-            }
-        /* End auto complete */
     /* ======= End search ========== */
 
     /* Tools Member */
@@ -251,13 +255,13 @@
             align-items: center;
             margin-left: 10px;
             margin-right: 10px;
-            font-size: 14px;
+            font-size: 1.4rem;
         }
 
         .tools-member a {
             position: relative;
             padding: 5px 0;
-            font-size: 16px;
+            font-size: 1.6rem;
             font-weight: bold;
             color: #565;
             cursor: pointer;
@@ -371,7 +375,7 @@
             }
             .cart a{
                 color: #fff;
-                font-size: 15px;
+                font-size: 1.5rem;
             }
             .cart-number {
                 position: absolute;
@@ -405,11 +409,11 @@
         .notice p{
             text-decoration: none;
             color: #fff;
-            font-size: 14px;
+            font-size: 1.4rem;
             font-weight: bold;
         }
         .notice a i{
-            font-size: 14px;
+            font-size: 1.4rem;
     
         }
 
