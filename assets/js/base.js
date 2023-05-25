@@ -442,7 +442,7 @@ function addProducts(){
                             </div>
                             <div class="product-item__price">
                                 <span class="product-item__price-current">20000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <span class="product-item__price-old">  <i class="fa-solid fa-dong-sign"></i></span> 
+                                <span class="product-item__price-old"> 29000 <i class="fa-solid fa-dong-sign"></i></span> 
                             </div>
                             <div class="buy-btn">
                                 <button>Mua ngay</button>
@@ -863,7 +863,7 @@ function addFooter(){
     <div class="footer-top">
             <div class="col">
                     <ul class="list-footer">
-                            <li class="item-footer"><a href="#" class="link-footer">Thiên đường mua sắm HUFII</a></li>
+                            <li class="item-footer"><a href="#" class="link-footer">Thiên đường mua sắm HUFI</a></li>
                             <li class="item-footer"><a href="#" class="link-footer">Công ty cổ phần thương mại
                                     HUFI</a></li>
                             <li class="item-footer"><a href="#" class="link-footer">Địa chỉ: 140 Lê Trọng Tấn,

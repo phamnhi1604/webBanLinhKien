@@ -198,9 +198,9 @@
 
 
 .product-item__price {
-    /* display: flex; */
+    display: flex;
     /* display: block; */
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: baseline;
     margin: 10px 5px 0 5px;
     /* margin-top: 10px; */
@@ -213,13 +213,15 @@
     font-size: 1.6rem;
     color: #666;
     text-decoration: line-through;
+    text-align: right;
+
 }
 
 .product-item__price-current{
     height: 16px;
     font-size: 1.8rem;
     color: red;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     width: 50%;
     font-weight: 600;
 
