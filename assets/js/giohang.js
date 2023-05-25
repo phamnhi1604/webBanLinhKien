@@ -100,7 +100,7 @@ function showCart() {
         ttgh+=' <tr class="row-sp"> '+
                     '<td>'+(i + 1)+'</td>'+
                     '<td style="text-align: center" ><img src="'+giohang[i][0]+'"></td>'+
-                    '<td class="">'+giohang[i][1]+'</td>'+
+                    '<td class="row-height">'+giohang[i][1]+'</td>'+
                     '<td class="alignCenter">'+giohang[i][3]+'</td>'+
                     '<td class="soluong" >'+
                         '<button onclick="giamSoLuong('+giohang[i][1]+')">'+ '<i class="fa fa-minus">'+'</i>'+ '</button>'+
@@ -114,7 +114,7 @@ function showCart() {
     ttgh +='<tr style="font-weight:bold; text-align:center">'+
                 '<td colspan="4">TỔNG TIỀN: </td>'+
                 '<td class="">'+ tong +'</td>'+
-                '<td class="thanhtoan" onclick="thanhToan()"> Thanh Toán </td>'+
+                '<td class="thanhtoan"> <a href="./trangthanhtoan.html">Thanh Toán</a> </td>'+
                 '<td class="xoaHet" onclick="xoaHet()"> Xóa hết </td>'+
             '</tr>';
 
@@ -145,7 +145,7 @@ function thanhToan(){
         return;
     }    
     sessionStorage.setItem("giohang", JSON.stringify(giohang));
-    location.reload();
+    location.replace("GioHang.html");
 }
 
 showCart();

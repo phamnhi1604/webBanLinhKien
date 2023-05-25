@@ -5,6 +5,8 @@ html{
 .body-lienhe{
 	margin: 30px 50px 50px 50px;
 	width: 90%;
+	font-size: 1.5rem;
+	line-height: 1.7rem;
 	
 
 }
@@ -71,6 +73,9 @@ table button:hover{
 	height: 30px;
 	padding: 3px;
 	text-align: center;
+}
+hr {
+	margin: 5px 0;
 }
 /* những tr chẵn sẽ có màu khác */
 .thongtinnhom tr:nth-of-type(even) {background-color: #f2f2f2;}

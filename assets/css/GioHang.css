@@ -7,6 +7,8 @@ html{
     margin: 50px auto;
     border-collapse: collapse;
     width: 100%;
+    font-size: 1.5rem;
+
 }
 
 .body-giohang tr th{
@@ -22,11 +24,17 @@ html{
 }
 .body-giohang td{
     border: 1px solid #ddd;
-    padding: 12px 0;
+    /* padding: 12px 0; */
     background: #ccc;
+    
 }
 .body-giohang td:first-child{
     text-align: center;
+}
+
+.row-height{
+    width: 500px;
+
 }
 
 .alignCenter{
@@ -76,7 +84,9 @@ html{
     background-color: #6ab5e7 ;
 
 }
-
+.thanhtoan a{
+    line-height: 4rem;
+}
 .thanhtoan,
 .xoaHet{
     cursor: pointer;

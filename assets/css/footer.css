@@ -269,6 +269,7 @@
 .sign-up{
    margin-top:20px;
    /* margin-left: 450px; */
+   position: relative;
 }
 .sign-up h3{
     font-size: 1.7rem;
@@ -276,8 +277,10 @@
 .lazy-loaded{
    width: 20px;
    height: 20px;
+   position: absolute;
+   top: 32px;
+   right: -5px;
 }
-
 
 
 

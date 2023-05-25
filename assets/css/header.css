@@ -122,14 +122,14 @@
         padding-right: 10px;
         display: block;
         /* padding: 8px 0; */
-        font-size: 1.4rem;
+        font-size: 1.5rem;
 
     }
 
     .menu-list a:hover {
         background-color: #888;
         color: #eee;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
 
@@ -296,12 +296,15 @@
                 right: 5%;
             }
 
+            .member a{
+                font-size: 1.6rem;
+            }
             
 
             .member::after{
                 content: "";
                 display: block;
-                width: 100px;
+                width: 50px;
                 height: 20px;
                 position: absolute;
                 right: 7px;
@@ -310,6 +313,7 @@
 
             .member-item i {
                 padding: 0 10px;
+                font-size: 1.4rem;
             }
             .menuMember::before{
                 content: "";
@@ -330,7 +334,7 @@
             .member .menuMember {
                 position: absolute;
                 right: 0;
-                top: 45px;
+                top: 43px;
                 min-width: 170px;
                 background-color: #eee;
                 border-top:3px solid #29aba4;
@@ -396,17 +400,29 @@
         /* ======= End Cart ======== */
 
         .notice{
-            margin-right: 60px;
-            float: left;
-            /* display: table-cell; */
+
+            margin-right: 70px;
+            /* width: 50px; */
             height: 25px;
-            line-height: 25px;
-            width: 50px;
-            background: #29aba4;
-            border-radius: 5px;
-            text-align: center;
+            position: relative;
+            /* display: inline-block; */
+            float: left;
+            display: flex;
+            align-items: center;
+            /* margin: 210px 210px; */
+
         }
-        .notice p{
+        .notice::after{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            right: -17px;
+            top: 20px;
+        
+        }
+        /* .notice p{
             text-decoration: none;
             color: #fff;
             font-size: 1.4rem;
@@ -415,6 +431,82 @@
         .notice a i{
             font-size: 1.4rem;
     
+        } */
+        .notification-icon {
+            font-size: 2rem;
+            color: #565;
+            transition: color 0.3s;
+        }
+
+        .notification-badge {
+            position: absolute;
+            top: -3px;
+            right: -6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            transition: background-color 0.3s;
+        }
+
+        .notification-hover {
+            position: absolute;
+            top: 37.5px;
+            right: -12px;
+            width: 250px;
+            height: 350px;
+            background-color: #f5f5f5;
+            border-top: 3px solid #29aba4;
+            padding: 10px;
+            /* border-radius: 5px; */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: none;            
+            user-select: none;
+            cursor: default;
+
+        }
+
+        .notification-hover::before{
+            
+            content: "";
+            border: 10px solid;
+            border-color: transparent transparent #29aba4 transparent;
+            position: absolute;
+            right: 10px;
+            top: -22px;
+        }
+
+        .notice:hover .notification-icon {
+        }
+
+        .notice:hover .notification-badge {
+        }
+
+        .notice:hover .notification-hover {
+            display: block;
+        }
+
+        .notice-empty {
+            width: 30%;
+            height: 30%;
+            display: block;
+            pointer-events: none;
+            margin: 30% auto;
+            opacity: 0.7;
+            margin-bottom: 24px;
+
+        }
+        .mes{
+            font-size: 14px;
+            opacity: 0.7;
+            white-space: nowrap;
+            text-align: center;
+
         }
 
 

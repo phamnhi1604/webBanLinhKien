@@ -31,7 +31,7 @@ function addProducts(){
                                 <span class="product-item__sold">25 đã bán</span>
                             </div>
                             <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-current">56000 <i class="fa-solid fa-dong-sign"></i></span>
                                 <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
                             </div>
                             <div class="buy-btn">
@@ -47,8 +47,8 @@ function addProducts(){
                     <!-- 1 sản phẩm -->
                     <div class="grid__column-2-4 product-position">
                         <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp4.webp"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp20.webp"> </div>
+                            <h4 class="product-item__name">Bộ cấp nguồn/ Adaptor Dell 19.5V-6.67A-130W (Đầu kim nhỏ) (4.5mm*3.0mm) Zin (NQ)</h4>
                             <div class="product-item__action ">
                                 <!-- <span class="product-item__like product-item__like--liked">
                                     <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
@@ -62,11 +62,11 @@ function addProducts(){
                                     <i class="product-item__star--gold fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <span class="product-item__sold">88 đã bán</span>
+                                <span class="product-item__sold">62 đã bán</span>
                             </div>
                             <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
+                                <span class="product-item__price-current">785000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-old">59000  <i class="fa-solid fa-dong-sign"></i></span>
                             </div>
                             <div class="buy-btn">
                                 <button>Mua ngay</button>
@@ -100,7 +100,7 @@ function addProducts(){
                                 <span class="product-item__sold">88 đã bán</span>
                             </div>
                             <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-current">1200000 <i class="fa-solid fa-dong-sign"></i></span>
                                 <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
                             </div>
                             <div class="buy-btn">
@@ -116,8 +116,8 @@ function addProducts(){
                     <!-- 1 sản phẩm -->
                     <div class="grid__column-2-4 product-position">
                         <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp5.webp"> </div>
+                            <h4 class="product-item__name">MẠCH BẢO VỆ VNBMS 3.2V 4S 100A (20 MOSFET)</h4>
                             <div class="product-item__action ">
                                 <!-- <span class="product-item__like product-item__like--liked">
                                     <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
@@ -131,7 +131,7 @@ function addProducts(){
                                     <i class="product-item__star--gold fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <span class="product-item__sold">88 đã bán</span>
+                                <span class="product-item__sold">188 đã bán</span>
                             </div>
                             <div class="product-item__price">
                                 <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
@@ -150,8 +150,8 @@ function addProducts(){
                     <!-- 1 sản phẩm -->
                     <div class="grid__column-2-4 product-position">
                         <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp10.webp"> </div>
+                            <h4 class="product-item__name">Đồng hồ vạn năng Sanwa PS8a (Pin mặt trời, 0.7%)</h4>
                             <div class="product-item__action ">
                                 <!-- <span class="product-item__like product-item__like--liked">
                                     <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
@@ -165,177 +165,7 @@ function addProducts(){
                                     <i class="product-item__star--gold fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <span class="product-item__sold">88 đã bán</span>
-                            </div>
-                            <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
-                            </div>
-                            <div class="buy-btn">
-                                <button>Mua ngay</button>
-                            </div>
-                            
-                        </a>
-                        <div class="quick-action">
-                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
-                            <a class="like" href="" title="Thêm vào yêu thích"></a>
-                        </div>
-                    </div>
-
-                    <!-- 1 sản phẩm -->
-                    <div class="grid__column-2-4 product-position">
-                        <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"></div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
-                            <div class="product-item__action ">
-                                <!-- <span class="product-item__like product-item__like--liked">
-                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
-                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
-                                </span> -->
-                                <div class="product-item__rating">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="product-item__sold">88 đã bán</span>
-                            </div>
-                            <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
-                            </div>
-                            <div class="buy-btn">
-                                <button>Mua ngay</button>
-                            </div>
-                            
-                        </a>
-                        <div class="quick-action">
-                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
-                            <a class="like" href="" title="Thêm vào yêu thích"></a>
-                        </div>
-                    </div>
-                    <!-- 1 sản phẩm -->
-                    <div class="grid__column-2-4 product-position">
-                        <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
-                            <div class="product-item__action ">
-                                <!-- <span class="product-item__like product-item__like--liked">
-                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
-                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
-                                </span> -->
-
-                                <div class="product-item__rating">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="product-item__sold">88 đã bán</span>
-                            </div>
-                            <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
-                            </div>
-                            <div class="buy-btn">
-                                <button>Mua ngay</button>
-                            </div>
-                            
-                        </a>
-                        <div class="quick-action">
-                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
-                            <a class="like" href="" title="Thêm vào yêu thích"></a>
-                        </div>
-                    </div>
-                    <!-- 1 sản phẩm -->
-                    <div class="grid__column-2-4 product-position">
-                        <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
-                            <div class="product-item__action ">
-                                <!-- <span class="product-item__like product-item__like--liked">
-                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
-                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
-                                </span> -->
-
-                                <div class="product-item__rating">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="product-item__sold">88 đã bán</span>
-                            </div>
-                            <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
-                            </div>
-                            <div class="buy-btn">
-                                <button>Mua ngay</button>
-                            </div>
-                            
-                        </a>
-                        <div class="quick-action">
-                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
-                            <a class="like" href="" title="Thêm vào yêu thích"></a>
-                        </div>
-                    </div>
-                    <!-- 1 sản phẩm -->
-                    <div class="grid__column-2-4 product-position">
-                        <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
-                            <div class="product-item__action ">
-                                <!-- <span class="product-item__like product-item__like--liked">
-                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
-                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
-                                </span> -->
-
-                                <div class="product-item__rating">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="product-item__sold">88 đã bán</span>
-                            </div>
-                            <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
-                            </div>
-                            <div class="buy-btn">
-                                <button>Mua ngay</button>
-                            </div>
-                            
-                        </a>
-                        <div class="quick-action">
-                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
-                            <a class="like" href="" title="Thêm vào yêu thích"></a>
-                        </div>
-                    </div>
-                    <!-- 1 sản phẩm -->
-                    <div class="grid__column-2-4 product-position">
-                        <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
-                            <div class="product-item__action ">
-                                <!-- <span class="product-item__like product-item__like--liked">
-                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
-                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
-                                </span> -->
-
-                                <div class="product-item__rating">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="product-item__sold">88 đã bán</span>
+                                <span class="product-item__sold">26 đã bán</span>
                             </div>
                             <div class="product-item__price">
                                 <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
@@ -355,7 +185,211 @@ function addProducts(){
                     <!-- 1 sản phẩm -->
                     <div class="grid__column-2-4 product-position">
                         <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp12.webp"></div>
+                            <h4 class="product-item__name">Dây nguồn AC 220V C13 EU 10A 3x0.75 1.8 mét / lõi đồng nguyên chất</h4>
+                            <div class="product-item__action ">
+                                <!-- <span class="product-item__like product-item__like--liked">
+                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                </span> -->
+                                <div class="product-item__rating">
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="product-item__sold">51 đã bán</span>
+                            </div>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">36000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-old">41000  <i class="fa-solid fa-dong-sign"></i></span>
+                            </div>
+                            <div class="buy-btn">
+                                <button>Mua ngay</button>
+                            </div>
+                            
+                        </a>
+                        <div class="quick-action">
+                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
+                            <a class="like" href="" title="Thêm vào yêu thích"></a>
+                        </div>
+                    </div>
+                    <!-- 1 sản phẩm -->
+                    <div class="grid__column-2-4 product-position">
+                        <a href="./SP1.html" class="product-item">
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp13.webp"> </div>
+                            <h4 class="product-item__name">Đầu cốt kim PTV1.25-10 màu xanh - túi 100 cái - S2H17</h4>
+                            <div class="product-item__action ">
+                                <!-- <span class="product-item__like product-item__like--liked">
+                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                </span> -->
+
+                                <div class="product-item__rating">
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="product-item__sold">99 đã bán</span>
+                            </div>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">38000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
+                            </div>
+                            <div class="buy-btn">
+                                <button>Mua ngay</button>
+                            </div>
+                            
+                        </a>
+                        <div class="quick-action">
+                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
+                            <a class="like" href="" title="Thêm vào yêu thích"></a>
+                        </div>
+                    </div>
+                    <!-- 1 sản phẩm -->
+                    <div class="grid__column-2-4 product-position">
+                        <a href="./SP1.html" class="product-item">
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp14.webp"> </div>
+                            <h4 class="product-item__name">Rơ le bán dẫn DC-AC 3 pha SSR 100A FDR3-D48100Z chính hãng FULRD</h4>
+                            <div class="product-item__action ">
+                                <!-- <span class="product-item__like product-item__like--liked">
+                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                </span> -->
+
+                                <div class="product-item__rating">
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="product-item__sold">62 đã bán</span>
+                            </div>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">1050000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-old">1150000  <i class="fa-solid fa-dong-sign"></i></span>
+                            </div>
+                            <div class="buy-btn">
+                                <button>Mua ngay</button>
+                            </div>
+                            
+                        </a>
+                        <div class="quick-action">
+                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
+                            <a class="like" href="" title="Thêm vào yêu thích"></a>
+                        </div>
+                    </div>
+                    <!-- 1 sản phẩm -->
+                    <div class="grid__column-2-4 product-position">
+                        <a href="./SP1.html" class="product-item">
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp15.jpg"> </div>
+                            <h4 class="product-item__name">Sạc Apple 20W MHJE3</h4>
+                            <div class="product-item__action ">
+                                <!-- <span class="product-item__like product-item__like--liked">
+                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                </span> -->
+
+                                <div class="product-item__rating">
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="product-item__sold">18 đã bán</span>
+                            </div>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">520000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-old">600000  <i class="fa-solid fa-dong-sign"></i></span>
+                            </div>
+                            <div class="buy-btn">
+                                <button>Mua ngay</button>
+                            </div>
+                            
+                        </a>
+                        <div class="quick-action">
+                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
+                            <a class="like" href="" title="Thêm vào yêu thích"></a>
+                        </div>
+                    </div>
+                    <!-- 1 sản phẩm -->
+                    <div class="grid__column-2-4 product-position">
+                        <a href="./SP1.html" class="product-item">
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp19.webp"> </div>
+                            <h4 class="product-item__name">Mainboard ASUS PRIME H510M-K</h4>
+                            <div class="product-item__action ">
+                                <!-- <span class="product-item__like product-item__like--liked">
+                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                </span> -->
+
+                                <div class="product-item__rating">
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="product-item__sold">32 đã bán</span>
+                            </div>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">1689000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
+                            </div>
+                            <div class="buy-btn">
+                                <button>Mua ngay</button>
+                            </div>
+                            
+                        </a>
+                        <div class="quick-action">
+                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
+                            <a class="like" href="" title="Thêm vào yêu thích"></a>
+                        </div>
+                    </div>
+
+                    <!-- 1 sản phẩm -->
+                    <div class="grid__column-2-4 product-position">
+                        <a href="./SP1.html" class="product-item">
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp11.webp"> </div>
+                            <h4 class="product-item__name">Mạch điều khiển quạt điều hòa từ xa - Mạch khiển quạt G3</h4>
+                            <div class="product-item__action ">
+                                <!-- <span class="product-item__like product-item__like--liked">
+                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                </span> -->
+
+                                <div class="product-item__rating">
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="product-item__sold">94 đã bán</span>
+                            </div>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">75000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-old">89000  <i class="fa-solid fa-dong-sign"></i></span>
+                            </div>
+                            <div class="buy-btn">
+                                <button>Mua ngay</button>
+                            </div>
+                            
+                        </a>
+                        <div class="quick-action">
+                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
+                            <a class="like" href="" title="Thêm vào yêu thích"></a>
+                        </div>
+                    </div>
+                    <!-- 1 sản phẩm -->
+                    <div class="grid__column-2-4 product-position">
+                        <a href="./SP1.html" class="product-item">
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp4.webp"> </div>
                             <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
                             <div class="product-item__action ">
                                 <!-- <span class="product-item__like product-item__like--liked">
@@ -370,7 +404,7 @@ function addProducts(){
                                     <i class="product-item__star--gold fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <span class="product-item__sold">88 đã bán</span>
+                                <span class="product-item__sold">265 đã bán</span>
                             </div>
                             <div class="product-item__price">
                                 <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
@@ -389,8 +423,8 @@ function addProducts(){
                     <!-- 1 sản phẩm -->
                     <div class="grid__column-2-4 product-position">
                         <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp16.jpeg"> </div>
+                            <h4 class="product-item__name">Cáp Micro USB 0.2m AVA Speed II</h4>
                             <div class="product-item__action ">
                                 <!-- <span class="product-item__like product-item__like--liked">
                                     <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
@@ -404,10 +438,44 @@ function addProducts(){
                                     <i class="product-item__star--gold fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <span class="product-item__sold">88 đã bán</span>
+                                <span class="product-item__sold">385 đã bán</span>
                             </div>
                             <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-current">20000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-old">  <i class="fa-solid fa-dong-sign"></i></span> 
+                            </div>
+                            <div class="buy-btn">
+                                <button>Mua ngay</button>
+                            </div>
+                            
+                        </a>
+                        <div class="quick-action">
+                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
+                            <a class="like" href="" title="Thêm vào yêu thích"></a>
+                        </div>
+                    </div>
+                    <!-- 1 sản phẩm -->
+                    <div class="grid__column-2-4 product-position">
+                        <a href="./SP1.html" class="product-item">
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp17.jpg"> </div>
+                            <h4 class="product-item__name">Router Wifi Chuẩn Wifi 6 Asus AX1800HP</h4>
+                            <div class="product-item__action ">
+                                <!-- <span class="product-item__like product-item__like--liked">
+                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
+                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
+                                </span> -->
+
+                                <div class="product-item__rating">
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="product-item__sold">11 đã bán</span>
+                            </div>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">1890000 <i class="fa-solid fa-dong-sign"></i></span>
                                 <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
                             </div>
                             <div class="buy-btn">
@@ -423,8 +491,8 @@ function addProducts(){
                     <!-- 1 sản phẩm -->
                     <div class="grid__column-2-4 product-position">
                         <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp9.webp"> </div>
+                            <h4 class="product-item__name">Bộ khuếch đại công suất 160W x 2 qua WIFI, Blutooth Chất lượng âm thanh lossless</h4>
                             <div class="product-item__action ">
                                 <!-- <span class="product-item__like product-item__like--liked">
                                     <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
@@ -438,79 +506,11 @@ function addProducts(){
                                     <i class="product-item__star--gold fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <span class="product-item__sold">88 đã bán</span>
+                                <span class="product-item__sold">8 đã bán</span>
                             </div>
                             <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> 
-                            </div>
-                            <div class="buy-btn">
-                                <button>Mua ngay</button>
-                            </div>
-                            
-                        </a>
-                        <div class="quick-action">
-                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
-                            <a class="like" href="" title="Thêm vào yêu thích"></a>
-                        </div>
-                    </div>
-                    <!-- 1 sản phẩm -->
-                    <div class="grid__column-2-4 product-position">
-                        <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
-                            <div class="product-item__action ">
-                                <!-- <span class="product-item__like product-item__like--liked">
-                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
-                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
-                                </span> -->
-
-                                <div class="product-item__rating">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="product-item__sold">88 đã bán</span>
-                            </div>
-                            <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
-                            </div>
-                            <div class="buy-btn">
-                                <button>Mua ngay</button>
-                            </div>
-                            
-                        </a>
-                        <div class="quick-action">
-                            <a onclick="addCart(this)" class="add_cart" title="Thêm vào giỏ hàng"></a>
-                            <a class="like" href="" title="Thêm vào yêu thích"></a>
-                        </div>
-                    </div>
-                    <!-- 1 sản phẩm -->
-                    <div class="grid__column-2-4 product-position">
-                        <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
-                            <div class="product-item__action ">
-                                <!-- <span class="product-item__like product-item__like--liked">
-                                    <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
-                                    <i class="product-item__like-icon-fill fa-solid fa-heart "></i>
-                                </span> -->
-
-                                <div class="product-item__rating">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="product-item__star--gold fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <span class="product-item__sold">88 đã bán</span>
-                            </div>
-                            <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
-                                <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
+                                <span class="product-item__price-current">3490000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-old">3990000  <i class="fa-solid fa-dong-sign"></i></span>
                             </div>
                             <div class="buy-btn">
                                 <button>Mua ngay</button>
@@ -526,8 +526,8 @@ function addProducts(){
                     <!-- 1 sản phẩm -->
                     <div class="grid__column-2-4 product-position">
                         <a href="./SP1.html" class="product-item">
-                            <div class="product-item__img" >  <img src="./assets/img/products/sp1.jpg"> </div>
-                            <h4 class="product-item__name">Combo 10 Nút Nhấn Dán 2 Chân 3x6x2.5mm</h4>
+                            <div class="product-item__img" >  <img src="./assets/img/products/sp18.jpg"> </div>
+                            <h4 class="product-item__name">SSD SamSung 990 PRO 2TB M.2 PCIe gen 4 NVMe (MZ-V9P2T0BW)</h4>
                             <div class="product-item__action ">
                                 <!-- <span class="product-item__like product-item__like--liked">
                                     <i class="product-item__like-icon-empty fa-regular fa-heart"></i>
@@ -541,10 +541,10 @@ function addProducts(){
                                     <i class="product-item__star--gold fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <span class="product-item__sold">88 đã bán</span>
+                                <span class="product-item__sold">21 đã bán</span>
                             </div>
                             <div class="product-item__price">
-                                <span class="product-item__price-current">499000 <i class="fa-solid fa-dong-sign"></i></span>
+                                <span class="product-item__price-current">7580000 <i class="fa-solid fa-dong-sign"></i></span>
                                 <!-- <span class="product-item__price-old">899000  <i class="fa-solid fa-dong-sign"></i></span> -->
                             </div>
                             <div class="buy-btn">
@@ -573,7 +573,7 @@ function addProducts(){
                     <li class="sidebar_content-item">
                         <a href="" class="sidebar-product">
                             <div class="sidebar_product-img">
-                                <img src="./assets/img/products/sp1.jpg" alt="">
+                                <img src="./assets/img/products/sp2.jpg" alt="">
                             </div>
                             <div class="sidebar_product-content">
                                 <p class="sidebar_product-title">Jack cắm âm thanh 3.5mm Paliccs</p>
@@ -588,12 +588,12 @@ function addProducts(){
                     <li class="sidebar_content-item">
                         <a href="" class="sidebar-product">
                             <div class="sidebar_product-img">
-                                <img src="./assets/img/products/sp1.jpg" alt="">
+                                <img src="./assets/img/products/sp5.webp" alt="">
                             </div>
                             <div class="sidebar_product-content">
-                                <p class="sidebar_product-title">Jack cắm âm thanh 3.5mm Paliccs</p>
+                                <p class="sidebar_product-title">Mạch phun sương, bộ mạch phun sương 25W RK-83</p>
                                 <span class="sidebar_product-info">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.5
+                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.8
                                     <span class="sidebar_product-info--description space">Đã bán 102</span>
                                 </span>
                             </div>
@@ -603,13 +603,13 @@ function addProducts(){
                     <li class="sidebar_content-item">
                         <a href="" class="sidebar-product">
                             <div class="sidebar_product-img">
-                                <img src="./assets/img/products/sp1.jpg" alt="">
+                                <img src="./assets/img/products/sp7.webp" alt="">
                             </div>
                             <div class="sidebar_product-content">
-                                <p class="sidebar_product-title">Jack cắm âm thanh 3.5mm Paliccs</p>
+                                <p class="sidebar_product-title">Bộ trạm hàn BAKON White Light BK90 công xuất 90W 220V G9-5</p>
                                 <span class="sidebar_product-info">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.5
-                                    <span class="sidebar_product-info--description space">Đã bán 102</span>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.8
+                                    <span class="sidebar_product-info--description space">Đã bán 14</span>
                                 </span>
                             </div>
                         </a>
@@ -618,13 +618,13 @@ function addProducts(){
                     <li class="sidebar_content-item">
                         <a href="" class="sidebar-product">
                             <div class="sidebar_product-img">
-                                <img src="./assets/img/products/sp1.jpg" alt="">
+                                <img src="./assets/img/products/sp8.webp" alt="">
                             </div>
                             <div class="sidebar_product-content">
-                                <p class="sidebar_product-title">Jack cắm âm thanh 3.5mm Paliccs</p>
+                                <p class="sidebar_product-title">Bộ trạm hàn khò 2 trong 1, máy hàn khò BAKON White Light BK881 90W 220V G1-5</p>
                                 <span class="sidebar_product-info">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.5
-                                    <span class="sidebar_product-info--description space">Đã bán 102</span>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.4
+                                    <span class="sidebar_product-info--description space">Đã bán 112</span>
                                 </span>
                             </div>
                         </a>
@@ -633,13 +633,13 @@ function addProducts(){
                     <li class="sidebar_content-item">
                         <a href="" class="sidebar-product">
                             <div class="sidebar_product-img">
-                                <img src="./assets/img/products/sp1.jpg" alt="">
+                                <img src="./assets/img/products/sp21.webp" alt="">
                             </div>
                             <div class="sidebar_product-content">
-                                <p class="sidebar_product-title">Jack cắm âm thanh 3.5mm Paliccs</p>
+                                <p class="sidebar_product-title">Mainboard MSI PRO Z690-A DDR4</p>
                                 <span class="sidebar_product-info">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.5
-                                    <span class="sidebar_product-info--description space">Đã bán 102</span>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.7
+                                    <span class="sidebar_product-info--description space">Đã bán 7</span>
                                 </span>
                             </div>
                         </a>
@@ -648,13 +648,13 @@ function addProducts(){
                     <li class="sidebar_content-item">
                         <a href="" class="sidebar-product">
                             <div class="sidebar_product-img">
-                                <img src="./assets/img/products/sp1.jpg" alt="">
+                                <img src="./assets/img/products/sp22.webp" alt="">
                             </div>
                             <div class="sidebar_product-content">
-                                <p class="sidebar_product-title">Jack cắm âm thanh 3.5mm Paliccs</p>
+                                <p class="sidebar_product-title">Nguồn máy tính CORSAIR RM850e - 850W - 80 Plus Gold - Full Modular (CP-9020249-NA)</p>
                                 <span class="sidebar_product-info">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.5
-                                    <span class="sidebar_product-info--description space">Đã bán 102</span>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.9
+                                    <span class="sidebar_product-info--description space">Đã bán 14</span>
                                 </span>
                             </div>
                         </a>
@@ -663,13 +663,13 @@ function addProducts(){
                     <li class="sidebar_content-item">
                         <a href="" class="sidebar-product">
                             <div class="sidebar_product-img">
-                                <img src="./assets/img/products/sp1.jpg" alt="">
+                                <img src="./assets/img/products/sp23.webp" alt="">
                             </div>
                             <div class="sidebar_product-content">
-                                <p class="sidebar_product-title">Jack cắm âm thanh 3.5mm Paliccs</p>
+                                <p class="sidebar_product-title">Sạc Laptop HP 19V-4.74A-90W (Đầu kim) (7.4mm*5.0mm) (NQ)</p>
                                 <span class="sidebar_product-info">
-                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.5
-                                    <span class="sidebar_product-info--description space">Đã bán 102</span>
+                                    <i class="product-item__star--gold fa-solid fa-star"></i> 4.1
+                                    <span class="sidebar_product-info--description space">Đã bán 55</span>
                                 </span>
                             </div>
                         </a>
@@ -779,9 +779,9 @@ function addHeader() {
                         
                         <a href=""><i class="fa-solid fa-tags"></i> Phụ Kiện Máy Tính, Điện Dân Dụng</a>
                         
-                        <a href=""><i class="fa-solid fa-thumbtack"></i> Phụ kiện điện thoại</a>
+                        <a href=""><i class="fa-solid fa-thumbtack"></i> Phụ Kiện Điện Thoại</a>
                         
-                        <a href=""><i class="fa-solid fa-thumbtack"></i> Điều khiển các loại</a>
+                        <a href=""><i class="fa-solid fa-thumbtack"></i> Điều Khiển Các Loại</a>
                 </ul>
             </div> <!-- End Logo -->
         </div>
@@ -810,11 +810,21 @@ function addHeader() {
             
             <!--Notice-->
             <div class="notice">
-                <p href="">
-                    <i class="fa-solid fa-bell"></i>
-                    &nbsp;9
-                </p>
-                <div class="notice-menu"></div>
+                
+                <i class="fas fa-bell notification-icon"></i>
+                <div class="notification-badge">1</div>
+                <div class="notification-hover">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="notice-empty">
+                    <g class="style-scope notice-empty">
+                    <path
+                        d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"
+                        class="style-scope notice-empty"
+                        ></path>
+                    </g>
+                </svg>
+                <div class="mes">Hiện không có thông báo</div>
+                </div>
+               
             </div>
             
 
@@ -884,12 +894,7 @@ function addFooter(){
 
 
                     <!-- fanpage -->
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTuyensinhHUFI&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                            width="340" height="130" style="border:none;overflow:hidden" scrolling="no"
-                            frameborder="0" allowfullscreen="true"
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                            class="fanpage">
-                    </iframe>
+                    <iframe name="f27b86b4ac2495" width="1000px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.0/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df39897f45ec3838%26domain%3Dts.hufi.edu.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fts.hufi.edu.vn%252Ff202f5f2c3b87c8%26relation%3Dparent.parent&amp;container_width=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FTuyensinhHUFI%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=&amp;width=" style="border: none; visibility: visible; width: 300px; height: 130px;" class=""></iframe>
 
                     <!-- đăng kí nhận thông tin ưu đãi  -->
 
