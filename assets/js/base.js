@@ -861,7 +861,7 @@ function addFooter(){
     document.write(`
     <div class="footer">
     <div class="footer-top">
-            <div class="col-1">
+            <div class="col">
                     <ul class="list-footer">
                             <li class="item-footer"><a href="#" class="link-footer">Thiên đường mua sắm HUFII</a></li>
                             <li class="item-footer"><a href="#" class="link-footer">Công ty cổ phần thương mại
@@ -880,7 +880,7 @@ function addFooter(){
 
             </div>
 
-            <div class="col-2">
+            <div class="col">
                     <div class="infor">
                             <h3 class="text3">Về chúng tôi</h3>
                             <ul>
@@ -907,7 +907,7 @@ function addFooter(){
             </div>
             
 
-            <div class="col-3">
+            <div class="col">
                     <div class="payment"> <!-- phương thức thanh toán -->
                             <p>Phương thức thanh toán</p>
                             <!-- <img src="qrcode.png" alt="" class="qr-code"> -->

@@ -35,7 +35,9 @@
     text-decoration: underline;
 }
 
-
+.col{
+    margin: 0 20px;
+}
 .qr-code {
     width: 100px;
     height: 100px;
