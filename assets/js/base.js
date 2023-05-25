@@ -741,12 +741,12 @@ function addTopNav() {
             </div> <!-- End Social Topnav -->
 
             <ul class="top-nav-quicklink flexContain">
-                <li><a href="../TrangChu.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+                <li><a href="TrangChu.html"><i class="fa fa-home"></i> Trang chủ</a></li>
                 <li><a href="#"><i class="fa-regular fa-newspaper"></i> Tin tức</a></li>
                 <li><a href="#"><i class="fa-regular fa-handshake"></i></i> Tuyển dụng</a></li>
-                <li><a href="../gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
+                <li><a href="gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
                 <li><a href="#"><i class="fa fa-wrench"></i> Bảo hành</a></li>
-                <li><a href="../lienhe.html"><i class="fa fa-phone"></i> Liên hệ</a></li>
+                <li><a href="lienhe.html"><i class="fa fa-phone"></i> Liên hệ</a></li>
             </ul> <!-- End Quick link -->
         </section><!-- End Section -->
     </div><!-- End Top Nav  -->`);
@@ -833,11 +833,11 @@ function addHeader() {
                     <i class="fa fa-user"></i>
                 </a>
                 <ul class="menuMember hide">
-                    <a href="../FORM_DKDN/formDN.html" class="member-item">
+                    <a href="FORM_DKDN/formDN.html" class="member-item">
                         <i class="fa-solid fa-right-to-bracket"></i>
                         Đăng nhập
                     </a>
-                    <a href="../FORM_DKDN/formDK.html" class="member-item">
+                    <a href="FORM_DKDN/formDK.html" class="member-item">
                         <i class="fa-solid fa-user-plus"></i>
                         Đăng ký
                     </a>
